@@ -1,2 +1,2 @@
 # Lab01_Robotica
-Laboratorio No. 01 - Rob´otica Industrial - Trayectorias, Entradas y Salidas Digitales.
+Laboratorio No. 01 - Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.
