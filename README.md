@@ -11,5 +11,8 @@ Sobre una superficie plana rectangular se escriben las letras de los nombres de 
 
 Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio de un software CAD. La pieza fue impresa en 3D y se le añadio un resorte para amortiguar la presión del marcador sobre el tablero. El resultado se muestra a continuación
 
+### Diagrama de Flujo
+![DiagramaFlujo](https://github.com/user-attachments/assets/5e30233f-bdda-4560-b952-0f2b823a29ee)
+
 
 
