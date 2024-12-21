@@ -15,7 +15,11 @@ Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio d
 
 ### Diseño Herramienta.
 
-
+<p align="center">
+  <a href="url1"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/ModeladoCADHerramienta.png" height="300" width="300"></a>
+  <a href="url2"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/Herramienta.jpeg" height="300" width="300"></a>
+  <a href="url3"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/HerramientaEnRobot.jpeg" height="300" width="300"></a>
+</p>
 
 ### Diagrama de flujo de las acciones del robot.
 
