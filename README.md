@@ -31,7 +31,7 @@ Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio d
 
 Para cumplir con el diagrama de flujo anterior se usa el condicional de **if-elseif** para establecer el inicio de cada rutina según las entradas. En general se utilizan los comandos **MoveL** (mueve el robot en una línea recta desde su posición actual hasta la posición objetivo especificada), **MoveJ** (mover el robot rápidamente de un punto a otro cuando no es imprescindible que el movimiento siga una línea recta) y **MoveC** (se usa para mover el robot describiendo un arco de círculo). Cada movimiento se asocia con puntos objetivo (**RobotTargets**) que definen la trayectoria deseada, así como un objeto de trabajo (el **tablero** y el **wobj0**). 
 
-Por otro lado, _Path_rutina()_ tiene como propósito ejecutar la secuencia de movimientos para escribir cada letra y dibujo según el diseño planteado, incluyendo los movimientos de levantar el marcador para el cambio de letra. _Path_maintenance_  ejecuta un único movimiento que ubica el robot en una posición favorable para el operario en labores de mantenimiento
+Por otro lado, para organizar las acciones del robot según los casos se crearon dos rutinas: _Path_rutina()_ tiene como propósito ejecutar la secuencia de movimientos para escribir cada letra y dibujo según el diseño planteado, incluyendo los movimientos de levantar el marcador para el cambio de letra. _Path_maintenance_  ejecuta un único movimiento que ubica el robot en una posición favorable para el operario en labores de mantenimiento
 
 ### Plano de planta de la ubicación de cada uno de los elementos.
 
