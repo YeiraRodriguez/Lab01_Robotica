@@ -52,28 +52,49 @@ Por otro lado, para organizar las acciones del robot según los casos se crearon
 
 ## Código en RAPID del módulo utilizado para el desarrollo de la práctica.
 
+[Ver el contenido código RAPID](Code/Module2.mod)
+
 ## Simulación
 
 Con las trayectorias y rutinas ya definidas es posible simular los movimientos del robot en RobotStudio. Para ello se crearon dos superficies distintas y se adecuo el marco de usuario según el caso.
 
 ### Superficie plana
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](Videos/SimulaciónSuperficiePlana.mp4)
+<div align="center">
+  <a href="https://drive.google.com/file/d/1y3uGdH961BiKHaZ72J60Qjr_lpkM3Vzi/view?usp=sharing">
+  <img src="Images/PreviewSuperficiePlana.png" alt="Vista previa del video" width="300">
+  </a>
+  <p><em>Click en la imagen para abrir video</em></p>
+</div>
+
 
 ### Superficie inclinada a 30°
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](Videos/SimulaciónSuperficieInclinada.mp4)
+<div align="center">
+  <a href="https://drive.google.com/file/d/1-h9YJjoq_iWOIFHGYEf6vCYHRMuaRA1C/view?usp=sharing">
+  <img src="Images/PreviewPlanoInclinado.png" alt="Vista previa del video" width="300">
+  </a>
+  <p><em>Click en la imagen para abrir video</em></p>
+</div>
 
 ## Implementación
 
 ### Superficie plana
 
-[![Vista previa del video](Images/SuperficiePlana.jpeg)](https://drive.google.com/file/d/1gwt2HBlk1KEJaAFnYnO8odIygEGLiFvn/view?usp=drive_link)
+<div align="center">
+  <a href="https://drive.google.com/file/d/1gwt2HBlk1KEJaAFnYnO8odIygEGLiFvn/view?usp=drive_link">
+  <img src="Images/SuperficiePlana.jpeg" alt="Vista previa del video" width="300">
+  </a>
+  <p><em>Click en la imagen para abrir video</em></p>
+</div>
 
 ### Superficie inclinada a 30°
 
-Para la implementación se creó un soporte que garantizaba un ángulo de 30° del tablero que después fue fijado sobre la base.
+Para la implementación se creó un soporte que garantizaba un ángulo de 30° del tablero y que después fue fijado sobre la base.
 
-[![Vista previa del video](Images/PlanoInclinado.jpeg)](https://drive.google.com/file/d/1-iXqtReuPx85q1in9riHO6QqxAw6WvFO/view?usp=drive_link)
-
-
+<div align="center">
+  <a href="https://drive.google.com/file/d/1-iXqtReuPx85q1in9riHO6QqxAw6WvFO/view?usp=drive_link">
+  <img src="Images/PlanoInclinado.jpeg" alt="Vista previa del video" width="300">
+  </a>
+  <p><em>Click en la imagen para abrir video</em></p>
+</div>
