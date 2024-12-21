@@ -9,25 +9,29 @@ Sobre una superficie plana rectangular se escriben las letras de los nombres de 
 * El movimiento debe partir de una posición home especificada y realizar la trayectoria de cada palabra y decoración con un trazo continuo. El movimiento debe finalizar en la misma posición de home en la que se inició.
 * Los nombres deben estar separados
 
-Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio de un software CAD. La pieza fue impresa en 3D y se le añadio un resorte para amortiguar la presión del marcador sobre el tablero. El resultado se muestra a continuación
-
 ### Descripción de la solución planteada.
 
 ### Diseño Herramienta.
 
+Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio de un software CAD, tomando en cuenta las medidas del manual de usuario de ABB para el flanche del robot. Posteriormente, la pieza fue impresa en 3D y se le añadio un resorte para amortiguar la presión del marcador sobre el tablero. El resultado  de cada estapa del proceso se muestra a continuación
+
 <p align="center">
-  <a href="url1"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/ModeladoCADHerramienta.png" height="300" width="300"></a>
-  <a href="url2"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/Herramienta.jpeg" height="300" width="300"></a>
-  <a href="url3"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/HerramientaEnRobot.jpeg" height="300" width="300"></a>
+  <a href="url1"><img src="Images/ModeladoCADHerramienta.png" height="250" width="300"></a>
+  <a href="url2"><img src="Images/Herramienta.jpeg" height="250" width="150"></a>
+  <a href="url3"><img src="Images/HerramientaEnRobot.jpeg" height="250" width="300"></a>
 </p>
 
 ### Diagrama de flujo de las acciones del robot.
 
 <p align="center">
-  <a href="url4"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/DiagramaFlujo.png" height="300" width="300"></a>
+  <a href="url4"><img src="Images/DiagramaFlujo.png" width="200"></a>
 </p>
 
 ### Descripción de las funciones utilizadas.
+
+Para cumplir con el diagrama de flujo anterior se usa el condicional de **if-elseif** para establecer el inicio de cada rutina según las entradas. En general se utilizan los comandos **MoveL** (mueve el robot en una línea recta desde su posición actual hasta la posición objetivo especificada), **MoveJ** (mover el robot rápidamente de un punto a otro cuando no es imprescindible que el movimiento siga una línea recta) y **MoveC** (se usa para mover el robot describiendo un arco de círculo). Cada movimiento se asocia con puntos objetivo (**RobotTargets**) que definen la trayectoria deseada, así como un objeto de trabajo (el **tablero** y el **wobj0**). 
+
+Por otro lado, _Path_rutina()_ tiene como propósito ejecutar la secuencia de movimientos para escribir cada letra y dibujo según el diseño planteado, incluyendo los movimientos de levantar el marcador para el cambio de letra. _Path_maintenance_  ejecuta un único movimiento que ubica el robot en una posición favorable para el operario en labores de mantenimiento
 
 ### Plano de planta de la ubicación de cada uno de los elementos.
 
