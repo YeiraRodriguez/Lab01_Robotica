@@ -60,29 +60,20 @@ Con las trayectorias y rutinas ya definidas es posible simular los movimientos d
 
 [![Watch the video](https://i.sstatic.net/Vp2cE.png)](Videos/SimulaciónSuperficiePlana.mp4)
 
-<iframe width="560" height="315" src="Videos/SimulaciónSuperficiePlana.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ### Superficie inclinada a 30°
 
 [![Watch the video](https://i.sstatic.net/Vp2cE.png)](Videos/SimulaciónSuperficieInclinada.mp4)
-
-<iframe width="560" height="315" src="Videos/SimulaciónSuperficieInclinada.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Implementación
 
 ### Superficie plana
 
-<p align="center">
-  <a href="url4"><img src="Images/SuperficiePlana.jpeg" width="500"></a>
-</p>
+[![Vista previa del video](Images/SuperficiePlana.jpeg)](https://drive.google.com/file/d/1gwt2HBlk1KEJaAFnYnO8odIygEGLiFvn/view?usp=drive_link)
 
 ### Superficie inclinada a 30°
 
 Para la implementación se creó un soporte que garantizaba un ángulo de 30° del tablero que después fue fijado sobre la base.
 
-<p align="center">
-  <a href="url4"><img src="Images/PlanoInclinado.jpeg" width="500"></a>
-</p>
-
+[![Vista previa del video](Images/PlanoInclinado.jpeg)](https://drive.google.com/file/d/1-iXqtReuPx85q1in9riHO6QqxAw6WvFO/view?usp=drive_link)
 
 
