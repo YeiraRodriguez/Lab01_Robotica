@@ -1,4 +1,4 @@
-# Lab01_Robotica
+# Lab01_Robótica
 Laboratorio No. 01 - Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.
 
 Sobre una superficie plana rectangular se escriben las letras de los nombres de cada uno de los integrantes del grupo y una decoración al gusto. En este caso se generaron los paths o los movimientos de robot necesarios para representar las letras y la decoración. Se tuvieron en cuenta las siguientes restricciones:
@@ -11,8 +11,10 @@ Sobre una superficie plana rectangular se escriben las letras de los nombres de 
 
 Teniendo en cuenta lo anterior se empezó diseñando una herramienta por medio de un software CAD. La pieza fue impresa en 3D y se le añadio un resorte para amortiguar la presión del marcador sobre el tablero. El resultado se muestra a continuación
 
-### Diagrama de Flujo
-![DiagramaFlujo](https://github.com/user-attachments/assets/5e30233f-bdda-4560-b952-0f2b823a29ee)
-
-
+### Diseño Herramienta
+<p align="center">
+  <a href="url1"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/ModeladoCADHerramienta.png" height="300" width="300"></a>
+  <a href="url2"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/Herramienta.jpeg" height="300" width="300"></a>
+  <a href="url3"><img src="https://github.com/YeiraRodriguez/Lab01_Robotica/blob/e36d3014bd812781157ec074338fe2b30055f480/Images/HerramientaEnRobot.jpeg" height="300" width="300"></a>
+</p>
 
